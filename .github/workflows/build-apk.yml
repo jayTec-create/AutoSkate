@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Unpack Android project
-        run: unzip -q AutoSkate-Android-Prototype-v0.2.zip
+        run: unzip -q AutoSkate-v0.2-phone-cloud-build.zip
 
       - name: Set up Gradle 8.9
         uses: gradle/actions/setup-gradle@v4
